@@ -1,0 +1,13 @@
+Modificación: Se modificó el archivo pero todavía no lo has confirmado a tu base de datos. 
+Preparado: Has marcado un archivo modificado en su versión actual para que vaya en tu próxima confirmación.
+Confirmado: Significa que los datos están almacenados de manera segura en tu base de datos loca.
+
+
+
+echo "# mi-proyecto" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/KarenUribe18/mi-proyecto.git
+git push -u origin main
